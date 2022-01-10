@@ -1,0 +1,61 @@
+html{
+    background-color: black;
+}
+
+header{
+    background-color: cyan;
+    height: 150px;
+    margin: 15px;
+    padding: 40px;
+    margin: auto;
+    border-top: black solid;
+    border-bottom: black solid;
+}
+
+button{
+    display: inline-block;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: black;
+    background-color: darkcyan;
+    border:solid cyan;
+    width: 23.5%;
+    text-align: center;
+    margin: auto;
+    margin-left: 1%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 20%;
+    transition: 1s ease;
+    font-size: 50%;
+    float:right;
+    margin-right: 150px;
+}
+
+button:hover{
+    background-color:aquamarine;
+    color: dodgerblue;
+}
+
+button:focus{
+    background-color: aquamarine;
+    color: dodgerblue;
+}
+
+button:active{
+    border: dodgerblue solid;
+}
+
+hr{
+    color: cyan;
+}
+
+form{
+    font-size: 200%;
+    color: cyan;
+}
+
+input{
+    background-color: black;
+    color: dodgerblue;
+}
