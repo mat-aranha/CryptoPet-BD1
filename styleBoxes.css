@@ -1,0 +1,138 @@
+html{
+    background-color: black;
+}
+
+header{
+    background-color: cyan;
+    height: 100px;
+    margin: 5px;
+    border: none;
+    padding: 15px;
+    margin: auto;
+    border-top: black solid;
+    border-bottom: black solid;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: dodgerblue;
+}
+h3{
+    color:cyan;
+}
+p{
+    color: dodgerblue;
+}
+li{
+    color: dodgerblue;
+}
+
+section{
+    display: inline-block;
+    width: 31%;
+    height: auto;
+    text-align: center;
+    border: cyan solid;
+    margin: auto;
+    margin-left: 1%;
+}
+hr{
+    color: cyan;
+}
+img{
+    align-self: center;
+}
+
+a{
+    display: inline-block;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: black;
+    background-color: darkcyan;
+    border:solid cyan;
+    width: 23.5%;
+    text-align: center;
+    margin: auto;
+    margin-left: 1%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 20%;
+    transition: 1s ease;
+}
+
+a:hover{
+    background-color:aquamarine;
+    color: dodgerblue;
+}
+
+a:focus{
+    background-color: aquamarine;
+    color: dodgerblue;
+}
+
+a:active{
+    border: dodgerblue solid;
+}
+
+section a{
+    background-color: cyan;
+    color: black;
+    border:cornflowerblue solid;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 150px;
+    transition: 1s ease;
+    text-decoration: none;
+}
+section a:hover{
+    background-color: cornflowerblue;
+    color: black;
+    border: cyan solid;
+    border-radius: 30%;
+}
+section a:focus{
+    background-color: cornflowerblue;
+    color: black;
+    border: cyan solid;
+}
+section a:active{
+    background-color: cornflowerblue;
+    color: black;
+    border: cyan;
+}
+
+.buy{
+    transition-property: color, width, background;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    transition-delay: .5s;
+}
+nav{
+    box-sizing: border-box;
+    border:cyan solid;
+    color: black;
+    background-color: black;
+    height: 100%;
+    overflow: auto;
+    padding: 1%
+}
+
+nav a{
+    box-sizing: border-box;
+    display: inline-block;
+    margin: auto;
+    color: black;
+    background-color:darkcyan;
+    border: cyan solid;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 25%;
+    width: 31.8%;
+    height: 100%;
+    padding-top: 1%;
+    margin-left: 1%;
+    font-size: 120%;
+}
